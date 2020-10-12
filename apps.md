@@ -6,10 +6,12 @@ permalink: /apps/
 
 Here all the fancy PWAs
 
-{% for app in site.apps %}
-  <h2>
-    <a href="{{ app.url }}">
-      {{ app.title }}
-    </a>
-  </h2>
-{% endfor %}
+<div class="app-list">
+  {% for app in site.apps %}
+    <div class="app-list__app">
+      <a href="{{ app.url }}">
+        {{ app.title }}
+      </a>
+    </div>
+  {% endfor %}
+</div>
