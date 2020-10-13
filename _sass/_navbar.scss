@@ -1,0 +1,28 @@
+nav {
+  background: $color-background-light;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    > li {
+      list-style: none;
+      border-bottom: 1px solid $color-border;
+
+      > a {
+        display: block;
+        text-decoration: none;
+        color: $color-text;
+        padding: $margin-base $margin-extra-large $margin-base $margin-base;
+
+        &:hover {
+          background: $color-background-dark;
+        }
+      }
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+}

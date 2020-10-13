@@ -15,6 +15,14 @@
   border-radius: $radius-base;
   background: $color-background-light;
 
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
   > h3 {
     margin: 1rem 0 0 0;
   }
