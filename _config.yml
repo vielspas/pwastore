@@ -33,6 +33,9 @@ theme: pwastore-theme
 plugins:
   - jekyll-feed
 
+sass:
+  sass_dir: pwastore-theme/_sass
+
 collections:
   apps:
     output: true
