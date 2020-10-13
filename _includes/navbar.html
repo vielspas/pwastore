@@ -2,7 +2,7 @@
   <ul>
     {% for category in site.categories %}
       <li>
-        <a href="{{ category.url }}">
+        <a href="{{ category.url | relative_url }}">
           {{ category.title }}
         </a>
       </li>
