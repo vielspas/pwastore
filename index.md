@@ -1,9 +1,6 @@
 ---
 layout: page
 title: PWA Store
-redirect_from:
-  - /apps/
-  - /categories/
 ---
 
 Here all the fancy PWAs
