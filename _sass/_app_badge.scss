@@ -1,0 +1,29 @@
+.app-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.app-badge {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 12rem;
+  padding: $margin-small;
+  margin: $margin-small;
+  border: 1px solid $color-border;
+  border-radius: $radius-base;
+  background: $color-background-light;
+
+  > h3 {
+    margin: 1rem 0 0 0;
+  }
+
+  &__image {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: $margin-small;
+  }  
+}

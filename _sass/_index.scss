@@ -1,5 +1,6 @@
 @import "variables";
 @import "header";
+@import "app_badge";
 
 html, body {
   margin: 0;
@@ -9,6 +10,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  background: $color-background-dark;
 }
 
 main {

@@ -7,11 +7,7 @@ layout: default
 <div class="app-list">
   {% for app in site.apps %}
     {% if app.categories contains page.title %}
-      <div class="app-list__app">
-        <a href="{{ app.url | relative_url }}">
-          {{ app.title }}
-        </a>
-      </div>
+      {% include app_badge.html app=app %}
     {% endif %}
   {% endfor %}
 </div>

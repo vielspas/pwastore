@@ -3,17 +3,15 @@ layout: page
 title: PWA Store
 redirect_from:
   - /apps/
+  - /apps
   - /categories/
+  - /categories
 ---
 
 Here all the fancy PWAs
 
 <div class="app-list">
   {% for app in site.apps %}
-    <div class="app-list__app">
-      <a href="{{ app.url }}">
-        {{ app.title }}
-      </a>
-    </div>
+    {% include app_badge.html app=app %}
   {% endfor %}
 </div>
