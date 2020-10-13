@@ -35,6 +35,8 @@ plugins:
 collections:
   apps:
     output: true
+  categories:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

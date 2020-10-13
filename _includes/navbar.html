@@ -1,7 +1,11 @@
 <nav>
   <ul>
-    <li>foo</li>
-    <li>bar</li>
-    <li>baz</li>
+    {% for category in site.categories %}
+      <li>
+        <a href="{{ category.url }}">
+          {{ category.title }}
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 </nav>
