@@ -30,7 +30,8 @@ github_username: vielspas
 
 # Build settings
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
+  - jekyll-redirect-from
 
 collections:
   apps:
