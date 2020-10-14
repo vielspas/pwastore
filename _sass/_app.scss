@@ -18,18 +18,35 @@
     }
 
     &__content {
+      flex: 1;
+      justify-content: space-between;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
 
-      > h2 {
+      .content__column {
+        display: flex;
+        flex-direction: column;
+
+      }
+
+      h2 {
         margin: $margin-base 0;
       }
 
-      > h3 {
+      h3 {
         margin: 0 0 $margin-medium 0;
       }
 
-      > .categories {
+      .open {
+        display: block;
+        text-decoration: none;
+        background: $color-theme;
+        color: $color-title;
+        border-radius: $radius-base;
+        padding: $margin-base $margin-medium;
+      }
+
+      .categories {
         > ul {
           display: flex;
           flex-direction: row;

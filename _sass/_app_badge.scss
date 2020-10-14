@@ -10,7 +10,7 @@
   width: 10rem;
   height: 12rem;
   padding: $margin-small;
-  margin: $margin-small;
+  margin-bottom: $margin-small;
   border: 1px solid $color-border;
   border-radius: $radius-base;
   background: $color-background-light;
@@ -23,12 +23,8 @@
     }
   }
 
-  &:first-child {
-    margin-left: 0;
-  }
-
-  &:last-child {
-    margin-right: 0;
+  &:not(:last-child) {
+    margin-right: $margin-small;
   }
 
   > h3 {

@@ -6,20 +6,25 @@ layout: default
   <section class="banner">
     <div class="banner__logo" style="background-image: url({{ page.logo | relative_url }})"></div>
     <div class="banner__content">
-      <h2>{{ page.title }}</h2>
-      <h3>{{ page.author }}</h3>
-      <div class="categories">
-        <ul>
-          {% for category in site.categories %}
-            {% if page.categories contains category.title %}
-              <li>
-                <a href="{{ category.url | relative_url }}">
-                  {{ category.title }}
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+      <div class="content-column">
+        <h2>{{ page.title }}</h2>
+        <h3>{{ page.author }}</h3>
+        <div class="categories">
+          <ul>
+            {% for category in site.categories %}
+              {% if page.categories contains category.title %}
+                <li>
+                  <a href="{{ category.url | relative_url }}">
+                    {{ category.title }}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="content-column">
+        <a target="_blank" rel="noopener" href="{{ page.site_url }}" class="open">Open</a>
       </div>
     </div>
   </section>

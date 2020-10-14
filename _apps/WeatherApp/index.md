@@ -2,6 +2,7 @@
 layout: app
 title: Weather App
 author: JSMastery
+site_url: https://focused-swirles-369dde.netlify.app/
 logo: apps/WeatherApp/1590596764816-logo.png
 images:
   - apps/WeatherApp/1590596765175-Screenshot_2020-05-27_at_18.20.43.png
