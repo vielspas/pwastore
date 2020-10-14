@@ -25,7 +25,11 @@ main {
 
   > .content {
     flex: 1;
-    overflow: auto;
+    overflow: hidden auto;
     padding: $margin-medium;
+
+    @include breakpoint(xs) {
+      padding: 0;
+    }
   }
 }

@@ -1,5 +1,9 @@
 .category {
   > h2 {
     margin: 0 0 $margin-base 0;
+
+    @include breakpoint(xs) {
+      margin: $margin-base;
+    }
   }
 }

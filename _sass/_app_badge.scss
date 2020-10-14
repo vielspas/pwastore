@@ -2,13 +2,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  @include breakpoint(xs) {
+    padding: $margin-base;
+  }
 }
 
 .app-badge {
   display: flex;
   flex-direction: column;
-  width: 10rem;
-  height: 12rem;
+  min-width: 10rem;
+  min-height: 12rem;
   padding: $margin-small;
   margin-bottom: $margin-small;
   border: 1px solid $color-border;
@@ -16,6 +20,11 @@
   background: $color-background-light;
   text-decoration: none;
   color: $color-text;
+
+  @include breakpoint(xs) {
+    min-width: 8rem;
+    min-height: 10rem;
+  }
 
   &:hover {
     > h3 {
