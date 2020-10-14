@@ -14,7 +14,7 @@ nav {
         display: block;
         text-decoration: none;
         color: $color-text;
-        padding: $margin-base $margin-large $margin-base $margin-base;
+        padding: $margin-base ($margin-large + $margin-medium) $margin-base $margin-medium;
 
         &:hover {
           background: $color-background-dark;

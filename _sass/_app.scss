@@ -3,6 +3,9 @@
   padding: $margin-medium;
   border: 1px solid $color-border;
   border-radius: $radius-base;
+  max-width: 720px; // TODO
+  margin-left: auto;
+  margin-right: auto;
 
   .banner {
     display: flex;
@@ -97,6 +100,10 @@
 
     &__description {
       margin-top: $margin-medium;
+
+      > *:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
