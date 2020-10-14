@@ -1,6 +1,7 @@
 ---
 layout: app
 title: Family Tools
+author: Zerin Technologies
 logo: apps/FamilyTools/1592937609354-icon_512x512.jpg
 images:
   - apps/FamilyTools/1592937607724-Screen_Shot_2020-06-10_at_12.34.23_PM_409x731.jpg

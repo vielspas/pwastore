@@ -2,12 +2,14 @@
 layout: default
 ---
 
-{{ content }}
+<div class="category">
+  {{ content }}
 
-<div class="app-list">
-  {% for app in site.apps %}
-    {% if app.categories contains page.title %}
-      {% include app_badge.html app=app %}
-    {% endif %}
-  {% endfor %}
+  <div class="app-list">
+    {% for app in site.apps %}
+      {% if app.categories contains page.title %}
+        {% include app_badge.html app=app %}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>

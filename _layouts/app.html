@@ -3,13 +3,27 @@ layout: default
 ---
 
 <div class="app">
-  <section class="app__banner">
-    <div class="logo" style="background-image: url({{ page.logo | relative_url }})"></div>
-    <div class="title">
+  <section class="banner">
+    <div class="banner__logo" style="background-image: url({{ page.logo | relative_url }})"></div>
+    <div class="banner__content">
       <h2>{{ page.title }}</h2>
+      <h3>{{ page.author }}</h3>
+      <div class="categories">
+        <ul>
+          {% for category in site.categories %}
+            {% if page.categories contains category.title %}
+              <li>
+                <a href="{{ category.url | relative_url }}">
+                  {{ category.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </section>
-  <section class="app__description">
+  <section class="content">
     {{ content }}
   </section>
 </div>

@@ -4,11 +4,11 @@
   border: 1px solid $color-border;
   border-radius: $radius-base;
 
-  &__banner {
+  .banner {
     display: flex;
     flex-direction: row;
 
-    .logo {
+    &__logo {
       width: 10rem;
       height: 10rem;
       background-size: contain;
@@ -17,7 +17,50 @@
       margin-right: $margin-medium;
     }
 
-    .title {
+    &__content {
+      display: flex;
+      flex-direction: column;
+
+      > h2 {
+        margin: $margin-base 0;
+      }
+
+      > h3 {
+        margin: 0 0 $margin-medium 0;
+      }
+
+      > .categories {
+        > ul {
+          display: flex;
+          flex-direction: row;
+          margin: 0;
+          padding: 0;
+
+          > li {
+            list-style: none;
+            padding: $margin-small;
+            border: 1px solid $color-border;
+            border-radius: $radius-base;
+
+            &:not(:first-child) {
+              margin-left: $margin-small;
+            }
+
+            > a {
+              text-decoration: none;
+              color: $color-text;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
     }
+  }
+
+  .content {
+    margin-top: $margin-medium;
   }
 }
