@@ -29,6 +29,13 @@ layout: default
     </div>
   </section>
   <section class="content">
-    {{ content }}
+    <div class="content__images">
+      {% for image in page.images %}
+        <img src="{{ image | relative_url }}" />
+      {% endfor %}
+    </div>
+    <div class="content__description">
+      {{ content }}
+    </div>
   </section>
 </div>

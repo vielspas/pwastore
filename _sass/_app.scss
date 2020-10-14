@@ -79,5 +79,24 @@
 
   .content {
     margin-top: $margin-medium;
+
+    &__images {
+      display: flex;
+      flex-direction: row;
+      overflow: auto hidden;
+
+      > img {
+        max-height: 400px;
+        border-radius: $radius-base;
+
+        &:not(:last-child) {
+          margin-right: $margin-medium;
+        }
+      }
+    }
+
+    &__description {
+      margin-top: $margin-medium;
+    }
   }
 }
