@@ -2,6 +2,10 @@ nav {
   background: $color-background-light;
   border-right: 1px solid $color-border;
 
+  @include breakpoint(xs) {
+    display: none;
+  }
+
   ul {
     margin: 0;
     padding: 0;

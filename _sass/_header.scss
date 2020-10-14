@@ -10,4 +10,27 @@ header {
     text-decoration: none;
     color: $color-title;
   }
+
+  .hamburger {
+    display: none;
+    outline: none;
+    border: none;
+    padding: $margin-small;
+
+    .hamburger-inner {
+      background: $color-title !important;
+
+      &:before {
+        background: $color-title !important;
+      }
+
+      &:after {
+        background: $color-title !important;
+      }
+    }
+
+    @include breakpoint(xs) {
+      display: inline-block;
+    }
+  }
 }

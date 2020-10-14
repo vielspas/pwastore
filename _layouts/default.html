@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-<body>
-  {% include header.html %}
-  <main>
-    {% include navbar.html %}
-    <div class="content">
-      {{ content }}
-    </div>
-  </main>
-  {% include footer.html %}
-</body>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main>
+      {% include navbar.html %}
+      <div class="content">
+        {{ content }}
+      </div>
+    </main>
+    {% include footer.html %}
+
+    <script src="{{ "/assets/js/index.js" | relative_url }}"></script>
+  </body>
 </html>
