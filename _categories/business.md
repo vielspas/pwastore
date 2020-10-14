@@ -3,5 +3,5 @@ layout: category
 title: Business
 ---
 
-Business
+## Business
 

@@ -1,6 +1,7 @@
 @import "variables";
 @import "header";
 @import "navbar";
+@import "app";
 @import "app_badge";
 
 html, body {
@@ -23,6 +24,6 @@ main {
   > .content {
     flex: 1;
     overflow: auto;
-    padding: $margin-base $margin-large;
+    padding: $margin-medium;
   }
 }

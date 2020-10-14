@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: app
 title: AppName
 logo: apps/_temlate/img.img
 images:
@@ -9,7 +9,5 @@ categories:
   - Business
   - Food
 ---
-
-# AppName
 
 AppDescription

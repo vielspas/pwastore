@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: app
 title: Sitdown.space
 logo: apps/Sitdown/1595407817376-android-chrome-512x512_512x512.jpg
 images:
@@ -10,7 +10,5 @@ categories:
   - Game
   - Lifestyle
 ---
-
-# Sitdown
 
 Simple meditation timer and journal.

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: app
 title: Family Tools
 logo: apps/FamilyTools/1592937609354-icon_512x512.jpg
 images:
@@ -12,8 +12,6 @@ images:
 categories:
   - Lifestyle
 ---
-
-# Family Tools
 
 More Fun = More Done
 Welcome to the next level of family unity. Family Tools is designed to reward effort, no matter what kind. From coordinating the calendar to cleaning the house, organization has never been so accessible.

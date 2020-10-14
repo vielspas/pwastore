@@ -8,8 +8,6 @@ redirect_from:
   - /categories
 ---
 
-Here all the fancy PWAs
-
 <div class="app-list">
   {% for app in site.apps %}
     {% include app_badge.html app=app %}

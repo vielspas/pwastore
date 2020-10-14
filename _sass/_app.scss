@@ -1,0 +1,23 @@
+.app {
+  background: $color-background-light;
+  padding: $margin-medium;
+  border: 1px solid $color-border;
+  border-radius: $radius-base;
+
+  &__banner {
+    display: flex;
+    flex-direction: row;
+
+    .logo {
+      width: 10rem;
+      height: 10rem;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: $margin-medium;
+    }
+
+    .title {
+    }
+  }
+}

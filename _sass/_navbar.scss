@@ -1,5 +1,6 @@
 nav {
   background: $color-background-light;
+  border-right: 1px solid $color-border;
 
   ul {
     margin: 0;
@@ -13,7 +14,7 @@ nav {
         display: block;
         text-decoration: none;
         color: $color-text;
-        padding: $margin-base $margin-extra-large $margin-base $margin-base;
+        padding: $margin-base $margin-large $margin-base $margin-base;
 
         &:hover {
           background: $color-background-dark;

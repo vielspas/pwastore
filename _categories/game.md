@@ -3,5 +3,5 @@ layout: category
 title: Game
 ---
 
-Game
+## Game
 

@@ -3,5 +3,5 @@ layout: category
 title: Education
 ---
 
-Education
+## Education
 

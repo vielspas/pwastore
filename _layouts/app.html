@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="app">
+  <section class="app__banner">
+    <div class="logo" style="background-image: url({{ page.logo | relative_url }})"></div>
+    <div class="title">
+      <h2>{{ page.title }}</h2>
+    </div>
+  </section>
+  <section class="app__description">
+    {{ content }}
+  </section>
+</div>
