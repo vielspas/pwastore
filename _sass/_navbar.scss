@@ -1,9 +1,11 @@
 nav {
   background: $color-background-light;
   border-right: 1px solid $color-border;
+  overflow: hidden auto;
 
   @include breakpoint(xs) {
     display: none;
+    width: 100%;
   }
 
   ul {

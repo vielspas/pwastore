@@ -3,7 +3,7 @@
     margin: 0 0 $margin-base 0;
 
     @include breakpoint(xs) {
-      margin: $margin-base;
+      margin: $margin-base 0 0 $margin-base;
     }
   }
 }
