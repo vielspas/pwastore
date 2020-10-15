@@ -5,8 +5,8 @@ author: ''
 site_url: 'https://miammiam.app'
 logo: apps/MiamMiam/1587696471022-favicon-310.png
 images:
-  - apps/MiamMiam/1587697242805-miammiam.app_%28pwa%29_%282%29.png
-  - apps/MiamMiam/1587697243557-miammiam.app_%28pwa%29.png
+  - apps/MiamMiam/1587697242805-miammiam.app_pwa.png
+  - apps/MiamMiam/1587697243557-miammiam.app_pwa.png
 categories:
   - Food
 

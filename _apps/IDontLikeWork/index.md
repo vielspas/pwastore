@@ -3,9 +3,9 @@ layout: app
 title: I Don't Like Work
 author: ''
 site_url: 'https://idontlike.work/#/'
-logo: apps/IDon'tLikeWork/1586466647619-1536903886218-idontlikework-512.png
+logo: apps/IDontLikeWork/1586466647619-1536903886218-idontlikework-512.png
 images:
-  - apps/IDon'tLikeWork/1586466649199-1536837984889-idontlikework4.png
+  - apps/IDontLikeWork/1586466649199-1536837984889-idontlikework4.png
 categories:
   - Entertainment
 

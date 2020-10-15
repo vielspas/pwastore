@@ -3,7 +3,7 @@ layout: app
 title: Screen Recorder
 author: ''
 site_url: 'https://screenrecorderapp.com/'
-logo: apps/ScreenRecorder/1590089197684-favicon_%281%29.png
+logo: apps/ScreenRecorder/1590089197684-favicon.png
 images:
   - apps/ScreenRecorder/1590089197998-Slice_1.png
   - apps/ScreenRecorder/1590089198189-Slice_2.png

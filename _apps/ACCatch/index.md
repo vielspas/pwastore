@@ -3,7 +3,7 @@ layout: app
 title: AC Catch
 author: ''
 site_url: 'https://ac-catch.com/'
-logo: apps/ACCatch/1587695427327-acleaf_%281%29.png
+logo: apps/ACCatch/1587695427327-acleaf.png
 images: []
 categories:
   - Game
