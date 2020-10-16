@@ -7,8 +7,8 @@ logo: apps/ClinicalDecisionTracker/1587778572759-icon-blue512.png
 images:
   - apps/ClinicalDecisionTracker/1587778573432-Activity1_Screenshot.jpg
   - apps/ClinicalDecisionTracker/1587778573624-Activity2_Screenshot.jpg
-  - apps/ClinicalDecisionTracker/1587778573819-Case_Screenshot7%2B.png
-  - apps/ClinicalDecisionTracker/1587778574371-Report7%2B.png
+  - apps/ClinicalDecisionTracker/1587778573819-Case_Screenshot7.png
+  - apps/ClinicalDecisionTracker/1587778574371-Report7.png
   - apps/ClinicalDecisionTracker/1587778574572-Welcome_Screenshot.jpg
 categories:
   - Business

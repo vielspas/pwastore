@@ -5,9 +5,9 @@ author: ''
 site_url: 'https://lyricsfinderiamgs.netlify.app/'
 logo: apps/LyricsFinderApp/1590998547544-logo.jpg
 images:
-  - apps/LyricsFinderApp/1590998548135-Screenshot_%2886%29.png
-  - apps/LyricsFinderApp/1590998548332-Screenshot_%2887%29.png
-  - apps/LyricsFinderApp/1590998548665-Screenshot_%2888%29.png
+  - apps/LyricsFinderApp/1590998548135-Screenshot_86.png
+  - apps/LyricsFinderApp/1590998548332-Screenshot_87.png
+  - apps/LyricsFinderApp/1590998548665-Screenshot_88.png
 categories:
   - Entertainment
 

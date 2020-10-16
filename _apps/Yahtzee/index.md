@@ -8,7 +8,7 @@ images:
   - apps/Yahtzee/1587316945450-photo_2020-04-20_00-02-28.jpg
   - apps/Yahtzee/1587316945711-photo_2020-04-20_00-08-48.jpg
   - >-
-    apps/Yahtzee/1587316946259-%D0%90%D0%BD%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8F_2020-04-20_000050.png
+    apps/Yahtzee/1587316946259_2020-04-20_000050.png
 categories:
   - Game
 

@@ -6,7 +6,7 @@ site_url: 'https://mk8r-pwa-final.firebaseapp.com/'
 logo: apps/MarioKart8Randomizer/1589305452665-manifest-icon-512.png
 images:
   - >-
-    apps/MarioKart8Randomizer/1589305453470-mk8r-pwa-final.firebaseapp.com_slots%28iPhone_6_7_8%29.png
+    apps/MarioKart8Randomizer/1589305453470-mk8r-pwa-final.firebaseapp.com_slotsiPhone_6_7_8.png
 categories:
   - Game
 

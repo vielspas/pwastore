@@ -8,7 +8,7 @@ logo: >-
 images:
   - apps/emberclear/1591235003732-1545766390134-emberclear.io_null_2.png
   - >-
-    apps/emberclear/1591235004114-1545785212692-localhost_4201_chat_privately-with_me%28appsco.pe_375_%C3%97_667%29_%281%29.png
+    apps/emberclear/1591235004114-1545785212692-localhost_4201_chat_privately-with_meappsco.pe_375_667_1.png
 categories:
   - Social
 

@@ -5,9 +5,9 @@ author: ''
 site_url: 'https://jindal368-chat-app.netlify.app'
 logo: apps/chatAppbyVJ/1591202456319-logo.png
 images:
-  - apps/chatAppbyVJ/1591202456986-Screenshot_%2855%29.png
-  - apps/chatAppbyVJ/1591202457206-Screenshot_%2854%29.png
-  - apps/chatAppbyVJ/1591202457410-Screenshot_%2853%29.png
+  - apps/chatAppbyVJ/1591202456986-Screenshot.png
+  - apps/chatAppbyVJ/1591202457206-Screenshot.png
+  - apps/chatAppbyVJ/1591202457410-Screenshot.png
 categories:
   - Social
 

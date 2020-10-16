@@ -8,7 +8,7 @@ images:
   - >-
     apps/PUBGFinder/1593347290811-WhatsApp_Image_2020-06-28_at_5.51.58_PM_461x1000.jpg
   - >-
-    apps/PUBGFinder/1593347291322-WhatsApp_Image_2020-06-28_at_5.51.58_PM_%281%29_461x1000.jpg
+    apps/PUBGFinder/1593347291322-WhatsApp_Image_2020-06-28_at_5.51.58_PM_1_461x1000.jpg
   - >-
     apps/PUBGFinder/1593347291635-Screenshot_from_2020-06-28_17-42-41_1366x768.jpg
   - >-
