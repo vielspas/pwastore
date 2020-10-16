@@ -11,11 +11,9 @@
 .app-badge {
   display: flex;
   flex-direction: column;
-  min-width: 10rem;
-  max-width: 10rem;
-  min-height: 12rem;
-  max-height: 12rem;
-  padding: $margin-small;
+  width: 10rem;
+  height: 12rem;
+  padding: $margin-base;
   margin-bottom: $margin-small;
   border: 1px solid $color-border;
   border-radius: $radius-base;
@@ -24,10 +22,8 @@
   color: $color-text;
 
   @include breakpoint(xs) {
-    min-width: 8rem;
-    max-width: 8rem;
-    min-height: 10rem;
-    max-height: 10rem;
+    width: 8rem;
+    height: 10rem;
   }
 
   &:hover {
@@ -49,6 +45,5 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin: $margin-small;
   }  
 }
