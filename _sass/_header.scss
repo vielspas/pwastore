@@ -5,6 +5,8 @@ header {
   align-items: center;
   background: $color-theme;
   padding: 0 $margin-base;
+  z-index: 9;
+  box-shadow: $box-shadow;
 
   a {
     text-decoration: none;

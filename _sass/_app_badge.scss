@@ -20,6 +20,7 @@
   background: $color-background-light;
   text-decoration: none;
   color: $color-text;
+  box-shadow: $box-shadow;
 
   @include breakpoint(xs) {
     width: 8rem;
