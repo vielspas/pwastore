@@ -2,7 +2,7 @@
   <ul>
     {% for category in site.categories %}
       <li>
-        <a href="{{ category.url | relative_url }}">
+        <a href="{{ category.url | relative_url }}" class="{% if page.title == category.title %}active{% endif %}">
           {{ category.title }}
         </a>
       </li>

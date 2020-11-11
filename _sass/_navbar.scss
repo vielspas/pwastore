@@ -22,7 +22,7 @@ nav {
         color: $color-text;
         padding: $margin-base ($margin-large + $margin-medium) $margin-base $margin-medium;
 
-        &:hover {
+        &:hover, &.active {
           background: $color-background-dark;
         }
       }
