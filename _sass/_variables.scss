@@ -7,9 +7,9 @@ $radius-base: 2px;
 
 $color-pri: #cfd8dc;
 $color-pri-light: #ffffff;
-$color-pri-dark: #F5F5F6;
-$color-sec: #c0ca33;
-$color-text-pri: #212121;
+$color-pri-dark: #E1E2E1;
+$color-sec: #c8e6c9;
+$color-text-pri: #000000;
 
 $color-background-dark: $color-pri-dark;
 $color-background-light: $color-pri-light;
@@ -18,7 +18,9 @@ $color-text: $color-text-pri;
 $color-title: $color-text-pri;
 $color-border: $color-pri-dark;
 
-$box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+$box-shadow: 0 2px 4px rgba(120, 120, 120, 0.1);
+
+$font-family: 'Roboto';
 
 @mixin breakpoint($class) {
   @if $class == xs {
